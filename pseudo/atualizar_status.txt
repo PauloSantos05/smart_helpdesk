@@ -1,0 +1,22 @@
+// Pseudocódigo: Atualizar Status de Chamado
+
+INÍCIO
+
+Receber:
+  - ID do chamado
+  - Novo status desejado
+
+Buscar chamado pelo ID
+Se não encontrado:
+    Exibir mensagem "Chamado não encontrado"
+    ENCERRAR
+
+Buscar ID do novo status na tabela 'status'
+
+Atualizar a tabela 'chamados':
+  - status_id = novo ID
+  - atualizado_em = data e hora atual
+
+Exibir mensagem: "Status atualizado com sucesso"
+
+FIM

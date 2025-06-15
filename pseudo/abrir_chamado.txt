@@ -1,0 +1,23 @@
+// Pseudocódigo: Abrir Chamado
+
+INÍCIO
+
+Receber os seguintes dados do usuário:
+  - Título do chamado
+  - Descrição do problema
+  - ID do usuário solicitante
+
+Definir status inicial como "Aberto"
+Definir prioridade como "Média" (valor padrão)
+
+Inserir novo registro na tabela 'chamados' com:
+  - título
+  - descrição
+  - usuario_id
+  - status_id correspondente a 'Aberto'
+  - prioridade_id correspondente a 'Média'
+  - data atual como criado_em
+
+Exibir mensagem: "Chamado aberto com sucesso"
+
+FIM
